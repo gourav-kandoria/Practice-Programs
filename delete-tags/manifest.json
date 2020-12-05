@@ -1,0 +1,14 @@
+{
+
+  "manifest_version": 2,
+  "name": "delete-tags",
+  "version": "1.0",
+
+  "content_scripts": [
+    {
+      "matches": ["https://codeforces.com/*"],
+      "js": ["delete.js"]
+    }
+  ]
+
+}
